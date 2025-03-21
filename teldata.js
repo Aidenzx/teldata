@@ -1,7 +1,8 @@
 const axios = require('axios');
 const readline = require('readline');
+require('dotenv').config(); 
 
-const API_KEY = 'num_live_ZAdVEWCqEn8coW65E3HaMAO9jkZsTq91fKB28U8U';
+const API_KEY = process.env.API_KEY; 
 const BASE_URL = 'https://api.numlookupapi.com/v1/validate';
 
 const title = `
