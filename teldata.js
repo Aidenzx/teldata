@@ -1,7 +1,7 @@
 const axios = require('axios');
 const readline = require('readline');
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_AIDEN;
 const BASE_URL = 'https://api.numlookupapi.com/v1/validate';
 
 const title = `
